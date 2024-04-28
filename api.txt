@@ -1,0 +1,5 @@
+dotnet new webapi -o api
+dotnet watch run
+dotnet tool install --global dotnet-ef --version 8.0.4
+dotnet ef migrations add init
+dotnet ef database update
